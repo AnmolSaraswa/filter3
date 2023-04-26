@@ -1,0 +1,13 @@
+canvas{
+    animation-name: anmol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes anmol 
+{
+    from{box-shadow:30px 30px 50px red};
+    to{box-shadow:25px 25px 50px yellow};
+}
+.btn-warning:hover{
+    background-color: rgb(247, 0, 255);
+}
